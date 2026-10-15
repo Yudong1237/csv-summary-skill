@@ -1,0 +1,14 @@
+---
+name: csv-summary
+description: 读取CSV文件，分析表格字段，生成schema，输出数据汇总
+---
+# CSV-Summary Skill
+## 功能
+解析CSV文件，提取表头、识别字段类型，生成数据表schema，统计数据概况。
+## 触发条件
+用户需要分析csv、查看表结构、生成数据schema、汇总表格数据时启用。
+## 执行流程
+1. 读取CSV文件
+2. 提取表头，识别字段名称、数据类型，生成schema
+3. 统计行数、空值等基础信息
+4. 输出结构化汇总，将schema存入 references
